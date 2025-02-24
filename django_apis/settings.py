@@ -74,7 +74,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware'
 ]
 
-ROOT_URLCONF = 'django_apis.urls'
+ROOT_URLCONF = 'gorilla_app.urls'
 
 TEMPLATES = [
     {
@@ -92,7 +92,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_apis.wsgi.application'
+WSGI_APPLICATION = 'gorilla_app.wsgi.application'
 
 
 # Database
